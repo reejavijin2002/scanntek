@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slider-container {
+    width: 98%;
+    margin: auto; 
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 6px;
+    color: #333;
+    background: url("./Sliderimages/home-products-bg.png");
+    padding: 20px 0 20px 0;
+    box-shadow: 0 0 1rem #000 inset;
+    overflow-x:auto;
+    position: relative;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
+  .card {
+    flex: 1 0 250px;
+    margin: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+   
+  }
+    
+   .card img {
+      width: 250px;
+      height: 250px;
+      object-fit: center;
+     
+    }
+  
+  .card-content {
+    background: #fff;
+    padding: 1rem;
+    color: #121212;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .btn-div{
+    display: flex;
+    justify-content: end;
+  
+  }
+
+  .btn-div .btn{
+    background-color: #F37E4D;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 625px) {
+    .container {
+      width: 100%
+    }
+    
+    .cards-container {
+      padding: .5rem;
+    }
+    
+    .card {
+      margin: .5rem;
+     
+    }
+  }

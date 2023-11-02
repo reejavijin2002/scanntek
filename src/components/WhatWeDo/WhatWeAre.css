@@ -1,0 +1,72 @@
+  .submenu-slide {
+    display: flex;
+    padding: 30px;
+    background-color: black;
+
+    height: 428px;
+  }
+
+  .button-container button {
+    display: flex;
+    width: 345px;
+    height: 0px;
+    align-items: center;
+    margin: 25px;
+    border: none;
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+    padding: 10px 11px;
+  }
+
+  .button-container button text {
+    text-align: center;
+
+
+  }
+
+  .button-container {
+    text-align: start;
+
+  }
+
+  .button-container li {
+    width: 892px;
+    height: 47px;
+    gap: 10px
+  }
+
+  .left-slide {
+    width: 441px;
+    width: 428px;
+  }
+
+  .right-child {
+    padding: 45px;
+  }
+
+
+  .overview {
+    display: flex;
+    width: 345px;
+    height: 70px;
+
+
+    /* padding: 10px 11px; */
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+  .right-child {
+    margin-top: -30px;
+  }
+
+  .list-bold {
+    margin-bottom: 24px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }

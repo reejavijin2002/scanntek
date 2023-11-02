@@ -1,0 +1,56 @@
+  .submenu-slide {
+  display: flex;
+  padding: 30px;
+  height: 424px;
+  background: var(--gok, #000);
+
+}
+.button-container button {
+  display:flex;
+  width: 345px;
+  height: 70px;
+  align-items: center;
+  margin: 25px;
+  border: none;
+  background-color: black;
+  color: azure;
+cursor: pointer;
+ 
+}
+.sub-right{
+  color: rgba(255, 255, 255, 0.75);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.button-container button text {
+   text-align: center;
+
+ 
+}
+.button-container{
+    text-align: center;
+
+}
+.left-slide {
+  display: flex;
+  height: 428px;
+  padding: 20px 0px 0px 96px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.right-child{
+padding: 45px;
+}
+
+.list-bold{
+  color: #FFF;
+  width: auto;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
